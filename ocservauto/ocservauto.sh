@@ -271,7 +271,6 @@ function check_Required(){
     insserv -s  > /dev/null 2>&1 || ln -s /usr/lib/insserv/insserv /sbin/insserv
     print_info "Get base-tools ok"
 #only Debian 7+
-    surport_Syscodename || die "Sorry, your system is too old or has not been tested."
     print_info "Distro ok"
 #check systemd
     ocserv_systemd="n"
