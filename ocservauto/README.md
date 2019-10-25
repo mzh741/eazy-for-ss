@@ -11,11 +11,14 @@ This script may help you setup your own openconnect_server in debian(>=7),ubuntu
 apt-get update
 apt-get upgrade
 apt-get install wget
-wget http://git.io/p9r8 --no-check-certificate -O ocservauto.sh
+wget https://raw.githubusercontent.com/mzh741/eazy-for-ss/master/ocservauto/ocservauto.sh --no-check-certificate -O ocservauto.sh
 bash ocservauto.sh
 ```
 
-Profiles in /etc/ocserv/
+Edit profiles 
+```
+vim /etc/ocserv/ocserv.conf
+```
 
 When you change the profiles,restart the vpn server.
 ```shell
