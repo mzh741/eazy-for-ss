@@ -15,6 +15,13 @@ wget https://raw.githubusercontent.com/mzh741/eazy-for-ss/master/ocservauto/ocse
 bash ocservauto.sh
 ```
 
+```
+wget https://raw.githubusercontent.com/mzh741/eazy-for-ss/master/ocservauto/ocservauto.sh --no-check-certificate -O ocservauto.sh
+wget https://raw.githubusercontent.com/mzh741/eazy-for-ss/master/ocservauto/vars_ocservauto -O /root/vars_ocservauto
+vim /root/vars_ocservauto
+bash ocservauto.sh fm
+```
+
 Edit profiles 
 ```
 vim /etc/ocserv/ocserv.conf
