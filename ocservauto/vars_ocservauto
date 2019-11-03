@@ -9,7 +9,7 @@ coname='ocvpn'
 #tcp端口选择
 ocserv_tcpport_set='999'
 #是否只采用tcp模式 关闭udp端口
-only_tcp_port='n'
+only_tcp_port='y'
 #if only tcp,udp dose not work
 ocserv_udpport_set='1999'
 #是否开机自起
@@ -21,7 +21,7 @@ oc_version='0.10.8'
 #是否保存本配置文件
 save_user_vars='y'
 #初始用户名密码
-username='test'
-password='test'
+username=''
+password=''
 #域名
-fqdnname='oc.abc.com'
+fqdnname='.zgyz.xyz'
